@@ -120,9 +120,19 @@ const result = value === 25 ? "It's 25" : 'something other than 25';
 
 const wd046 = ['Bediz', 'Moustafa', 'Tania', 'Antonio', 'Subaru'];
 
-// callPoke('skjdfbskg');
-
 // console.log('Outside the function ', pokemon);
+
+const callPoke = function (param) {
+  if (!param) return;
+
+  console.log('My favorite pokemon is ', pokemon);
+  if (true) {
+    const anotherPoke = 'Blastoise';
+    console.log('awesome poke: ', anotherPoke);
+  }
+};
+
+// callPoke('skjdfbskg');
 
 // const multiplicate = function (num1, num2) {
 //   return num1 * num2;
